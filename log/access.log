@@ -1,0 +1,7 @@
+127.0.0.1 - - [24/Oct/2022:23:43:07 +0700] "GET / HTTP/1.1" 200 71 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Oct/2022:23:43:08 +0700] "GET / HTTP/1.1" 200 71 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Oct/2022:23:43:08 +0700] "GET /favicon.ico HTTP/1.1" 404 184 "http://0.0.0.0:8081/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Oct/2022:23:43:10 +0700] "GET / HTTP/1.1" 200 71 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Oct/2022:23:43:26 +0700] "GET / HTTP/1.1" 200 71 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Oct/2022:23:43:58 +0700] "GET / HTTP/1.1" 200 71 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/Oct/2022:23:44:47 +0700] "GET / HTTP/1.1" 200 71 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
