@@ -18,7 +18,6 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route("/v1/user/success_create_organization", methods=["POST"])
 @cross_origin()
 def success_create_organization():
-    # return (jsonify({'response': request.form.get('email')}), 200)
     return (jsonify({'response': successCreateOrganization.Api(request=request).send() if request.method == "POST" else None}), 200)
 
 
@@ -31,6 +30,7 @@ def success_registration():
 @app.route("/v1/user/success_activation", methods=["POST"])
 @cross_origin()
 def success_activation():
+    print(request.form.get('email'))
     return (jsonify({'response': successActivation.Api(request=request).send() if request.method == "POST" else None}, 200))
 
 

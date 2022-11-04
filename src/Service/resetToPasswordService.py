@@ -25,7 +25,6 @@ class ResetToPasswordService:
         
 
     def msg_construct(self):
-        print(self.request.form.get('data_password'))
         if self.request.form.get('data_password'):
             self.message = self.message.replace('[[password]]', self.request.form.get('data_password'))
 
