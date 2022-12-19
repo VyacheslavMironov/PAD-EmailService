@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 class ResetToPasswordService:
     def __init__(self, request) -> None:
         self.login = 'vuacheslavmironov@yandex.ru'
-        self.password = 'dscfdnwffnguymrn'
+        self.password = 'vijfsxllxixmkhau'
         self.server = smtplib.SMTP_SSL('smtp.yandex.ru', 465)
         self.msg = MIMEMultipart()
         self.message = """
