@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 class RegistrationService:
     def __init__(self, request) -> None:
         self.login = 'vuacheslavmironov@yandex.ru'
-        self.password = 'vijfsxllxixmkhau'
+        self.password = 'vebbnnnpnuxklfav'
         self.server = smtplib.SMTP_SSL('smtp.yandex.ru', 465)
         self.msg = MIMEMultipart()
         self.message = """
